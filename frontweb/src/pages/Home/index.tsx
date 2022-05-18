@@ -17,7 +17,6 @@ const Home = () => {
           <div className="home-content-container">
             <h1> O carro perfeito para você</h1>
             <p>
-              {' '}
               Conheça nossos carros e dê mais um passo na realização do seu
               sonho
             </p>
