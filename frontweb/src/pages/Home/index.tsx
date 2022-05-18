@@ -11,7 +11,7 @@ const Home = () => {
 
       <div className="home-container">
         <div className="home-card">
-          <div className="home-image-container">
+          <div className="home-image-container ">
             <MainImage />
           </div>
           <div className="home-content-container">

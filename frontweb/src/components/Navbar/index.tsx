@@ -21,7 +21,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="carrosTop-navbar">
-          <ul className="navbar-nav offset-md-2 main-menu">
+          <ul className="navbar-nav offset-md-9 main-menu">
             <li>
               <a href="link" className="active">
                 Home
