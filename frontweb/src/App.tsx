@@ -1,9 +1,12 @@
 
+import './assets/styles/custom.scss';
 import './App.css';
+import Home from 'pages/Home';
 
-function App() {
+const App = ()=> {
+
   return (
-  <h1>Carros Top</h1>
+  <Home/>
   );
 }
 
