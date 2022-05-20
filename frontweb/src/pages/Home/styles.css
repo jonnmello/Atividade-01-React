@@ -6,12 +6,15 @@
 }
 
 .home-card {
-  display: flex;
-  flex-direction: column;
   background-color: #00285f;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   border: 1px solid orange;
+  color: #00285f;
+}
+
+.base-card {
+
+  background-color: #00285f;
 }
 
 .home-image-container {

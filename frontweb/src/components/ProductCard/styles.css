@@ -1,0 +1,58 @@
+
+.product-card{
+  background: #EDEDED;
+   margin: 5px;
+   padding: 15px 22px;
+   box-shadow:none;
+   border-radius: 10px;
+
+}
+
+.card-top-container{
+   text-align: center;
+   padding: 14px 0;
+}  
+
+.card-top-container img{
+   width: 220px;
+   height: 165px;
+
+}
+
+.card-mid-container h6{
+   font-size: 18px;
+   color: #000;
+   text-align: center;
+}
+
+.card-mid-container p{
+   font-size: 13px;
+   font-style: italic;
+   color: #585858;
+   
+}
+.card-bottom-container{
+   text-align: center;
+}
+.card-bottom-container button{
+   background: #00285f;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   width: 220px;
+   height: 40px;
+   
+}
+
+@media (min-width: 576px) {
+ 
+.product-card{
+min-width: 260px;
+  }
+
+ .card-mid-container p{
+    min-width: 260px;
+ }
+
+}
