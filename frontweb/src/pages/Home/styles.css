@@ -2,13 +2,12 @@
   padding: 20px;
   font-size: 20px;
   text-align: center;
-  border: 1px solid red;
+
 }
 
 .home-card {
   background-color: #00285f;
   border-radius: 10px;
-  border: 1px solid orange;
   color: #00285f;
 }
 
@@ -19,7 +18,7 @@
 
 .home-image-container {
   padding: 5px 15px;
-  border: 1px solid purple;
+
 }
 
 .home-image-container svg {
@@ -32,7 +31,7 @@
   flex-direction: column;
   padding: 0px 15px 15px 15px;
   align-items: center;
-  border: 1px solid blue;
+
 }
 
 .home-content-container h1 {
@@ -51,32 +50,30 @@
 
 .Parte-baixo {
   margin-top: 30px;
-  padding-left: 15px;
+  padding-left: 0px;
   display: flex;
-  flex-direction: row;
-  padding-top: 5px;
-  padding-bottom: 15px;
+  flex-direction: column;
   background: #ededed;
   border-radius: 10px;
-  border: 1px solid green;
   height: 123px;
 }
 
 .Parte-baixo h1 {
-  margin-left: 20px;
-  margin-top: 18px;
+  margin-left: 10px;
+  margin-top: 15px;
   color: #585858;
   font-size: 14px;
   font-weight: normal;
   align-items: center;
-  margin-top: 40px;
+  
 }
 
 .container-button {
-  margin-top: 25px;
-  margin-left: 40px;
+  margin-top: 20px;
   padding-left: 15px;
 }
+
+
 
 @media (min-width: 576px) {
   .home-content-container {
@@ -117,6 +114,26 @@
   .Parte-baixo h1 {
     font-size: 18px;
   }
+  .Parte-baixo {
+    margin-top: 30px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background: #ededed;
+    border-radius: 10px;
+    height: 123px;
+  }
+  .Parte-baixo h1 {
+    margin-left: 20px;
+    margin-top: 45px;
+    color: #585858;
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;
+    
+  }
 }
 
 @media (min-width: 768px) {
@@ -140,6 +157,7 @@
     .home-content-container {
       margin-bottom: 30px;
     }
+    
   }
 
   @media (min-width: 1280px) {
@@ -171,6 +189,7 @@
       text-align: left;
       margin-left: 10%;
     }
+  
 
    
   }
